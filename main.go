@@ -60,7 +60,7 @@ func (w *Worker) CancelOrder(order Order) error {
 	// Simulate order cancellation logic
 	// (e.g., updating the database, sending notifications)
 
-	return errors.New("something hapenned!")
+	return nil
 }
 
 // GenerateInvoice generates an invoice for a processed order
